@@ -10,11 +10,18 @@ function showTime(){
     }
 
     if (h > 12){
-        h = h-12;
+        h = h - 12;
         var session = "PM";
     }
 
-    h=(h<10) ? "0" + h : h;
+    // h=(h<10) ? "0" + h : h;
+    if(h<10){
+        h= "0"+h
+    }
+    else{
+        h=h 
+    }
+   
     m=(m<10) ? "0" + m : m;
     s=(s<10) ? "0" + s : s;
     
