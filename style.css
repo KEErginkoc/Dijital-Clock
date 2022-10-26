@@ -3,7 +3,7 @@ body {
 }
 
 .clock {
-    color: aqua;
+    color: blue;
     position: absolute;
     top: 50%;
     left: 50%;
